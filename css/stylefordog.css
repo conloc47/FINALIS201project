@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(227, 191, 119, 0.871);
+    background-color: tan;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     margin-bottom: 75px;
@@ -7,38 +7,40 @@ body {
 
 }
 h1{
-    color: rgb(14, 12, 12);
+    color: maroon;
     text-align: center;
     font-family: 'Lobster Two', cursive;
 }
-h1:hover {color: maroon;}
+h1:hover {color: red}
 
-h2{
-    color: rgb(14, 12, 12);
+h2 {
+    font-family: 'Brush Script MT', cursive;
     text-align: center;
-    font-family: 'Lobster Two', cursive;
+    font-size:2em;
+    margin: 5px;
 }
-h2:hover {color: maroon;}
 
 h3 {
-    color: rgb(14, 12, 12);
-    text-align: center;
-    font-family: 'Lobster Two', cursive;
     font-family: 'Brush Script MT', cursive;
+    text-align: center;
     font-size:2em;
     margin: 5px;
 }
 a { color: black;}
-a:visited { color: rgb(11, 16, 11);}
-#Top 
+a:visited { color: rgba(123, 122, 126, 0.929);}
+#Top {
     width:40%;
     margin:auto;
     display: block;
-  
+    border: 5px maroon solid;
+    border-radius: 10px;
+    padding: 5px; }
 ul {
     list-style-type: ;
 }
-
+ol { 
+    list-style-type: upper-roman ;
+}
 .unique {
     margin-left: 3em;
 }
@@ -51,7 +53,7 @@ nav {
 
     text-align: center;
 
-    background-color:rgba 227, 191, 119, 0.871;
+    background-color: maroon;
 
     overflow: hidden;
 
@@ -67,7 +69,7 @@ nav {
 
 nav a {
 
-    color: rgb(235, 25, 25);
+    color: white;
 
     display: block;
 
@@ -89,51 +91,14 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background-color:  rgba(227, 191, 119, 0.871);
+    background-color: white;
     width: 100%;
-    border-top: 10px rgb(6, 231, 40);
+    border-top: 5px green solid;
     display: block;
     position: fixed;
     left: 0px;
     right: 0px;
     bottom: 0px;
-}
-
-.Vizsla img {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: "400";
-  height: "400";
-  
-}
-
-.Vizsla2 img {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: "400";
-  height: "400"  ;
-  
-}
-
-.Vizsla3 img {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: "400";
-  height: "50";
-  
-}
-
-
-.video {
-    position: absolute;
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 div.container {
@@ -145,11 +110,17 @@ div.container {
     text-align: left;
   }
 
-  div.need {
+div.need
+{
+ text-align: center;
+ list-style-position: inside;
+}
+ol.myol li
+{
+ text-align: center;
+ 
+}
+div.footlink {
     text-align: center;
-  }
-  
-  ol.myol {
-    display: inline-block;
-    text-align: ;
-  }
+ 
+}
